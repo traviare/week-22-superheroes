@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Main from "./components/Main";
 
@@ -113,8 +112,6 @@ const superheroes = [
 ];
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Main arr={superheroes}></Main>
